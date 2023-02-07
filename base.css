@@ -1,0 +1,43 @@
+:root {
+
+    --text-color: #000000;
+    --white-color: #ffffff;
+    --border-color: #5C5C5C;
+    --text-active-color: #ffffff;
+    --text-sidebar-color: #AAAAAA;
+
+    --sidebar-width: 150px;
+    --content-wrapper: calc(100% - var(--sidebar-width)%)
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-50 {
+    margin: 0 50px;
+}
+
+.background-color {
+    background-color: #EFEFEF;
+}
+
+.Content_section {
+    width: var(--content-wrapper);
+    max-width: 100%;
+    margin-top: 30px;
+    margin-left: 129px;
+    margin-right: 129px;
+}
